@@ -1,0 +1,20 @@
+---
+title: "Developing_Data_Product"
+output:
+  html_document:
+    df_print: paged
+---
+
+Developing Data Product Coursera Week 2 Assignment
+
+30-January-2019
+
+```{r}
+library(leaflet)
+```
+
+```{r}
+leaflet() %>%
+addTiles() %>%
+addMarkers(lat=30.752856, lng=76.80506, popup ="Rock Garden Chandigarh")
+```
